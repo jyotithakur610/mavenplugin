@@ -3,6 +3,7 @@ This plugin can be run on any project like other maven plugin but first you need
 
 Please add below dependencies to your project before using it:
 
+```xml
 <plugin>
   <groupId>addComments.plugin</groupId>
   <artifactId>addComments-maven-plugin</artifactId>
@@ -15,6 +16,8 @@ Please add below dependencies to your project before using it:
     </execution>
   </executions>
 </plugin>
+```
 	  
 Use below command to test from command prompt:
+
 mvn addComments.plugin:addComments-maven-plugin:1.0-SNAPSHOT:commentsPlugin 
